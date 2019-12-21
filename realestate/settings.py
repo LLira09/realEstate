@@ -139,5 +139,5 @@ MEDIA_URL = '/media/'
 
 from django.contrib.messages import constants as messages
 MESSAGE_TAGS = {
-    messages.ERROR: 'danger',
+    messages.ERROR: 'danger',  
 }

@@ -1,59 +1,79 @@
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 body {
   line-height: 1.6;
-  background: #fff; }
+  background: #fff;
+  min-height: 100vh;
+}
 
 a {
   text-decoration: none;
-  color: #3a3335; }
+  color: #3a3335;
+}
 
 ul {
-  list-style: none; }
+  list-style: none;
+}
 
 h2,
 h3,
 h4 {
-  text-transform: uppercase; }
+  text-transform: uppercase;
+}
 
 img {
-  width: 100%; }
+  width: 100%;
+}
 
 .navbar {
   opacity: 0.9;
   text-transform: uppercase;
-  border-bottom: 3px solid #9c0d38; }
+  border-bottom: 3px solid #9c0d38;
+}
 
 #showcase {
   background: url(../img/house-6.jpeg) no-repeat top center fixed/cover;
   position: relative;
   min-height: 650px;
   color: #fff;
-  padding-top: 6rem; }
-  #showcase .home-search {
-    min-height: 400px;
-    position: relative;
-    border-radius: 5px;
-    background: rgba(0, 0, 0, 0.6); }
+  padding-top: 6rem;
+}
+
+#showcase .home-search {
+  min-height: 400px;
+  position: relative;
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.6);
+}
 
 #showcase-inner {
   background: url(../img/gal-3.jpeg) no-repeat top center fixed/cover;
   position: relative;
   overflow: hidden;
-  min-height: 200px; }
+  min-height: 200px;
+}
 
 #main-footer {
-  background: #9c0d38; }
+  background: #9c0d38;
+  position: bottom;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
 
 #work {
-  padding: 6rem 0; }
+  padding: 6rem 0;
+}
 
 .page-item.active .page-link {
   color: #fff;
   background-color: #9c0d38;
-  border-color: #9c0d38; }
+  border-color: #9c0d38;
+}
 
 .page-link {
-  color: #3a3335; }
+  color: #3a3335;
+}
